@@ -8,9 +8,9 @@ type FooCollector struct {
 	foo string
 }
 
-func NewFooCollector() (FooCollector) {
-	return &fooCollector {
-		foo: "bar"
+func NewFooCollector() *FooCollector {
+	return &FooCollector {
+		foo: "bar",
 	}
 }
 
